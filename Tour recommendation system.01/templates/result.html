@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Recommended Destinations</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+<h2>Travel Explorer</h2>
+</nav>
+
+<h2 class="title">Recommended Places</h2>
+
+<div class="cards">
+
+{% for place in recs %}
+
+<div class="card">
+
+<img src="{{ url_for('static', filename='images/' + place.image) }}">
+
+<h3>{{ place.name }}</h3>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+<a href="/" class="back-btn">Back</a>
+
+</body>
+</html>

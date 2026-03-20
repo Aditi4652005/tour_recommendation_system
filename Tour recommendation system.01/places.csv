@@ -1,0 +1,11 @@
+Place,Type,Budget,Expense,Temperature,Rating,Image
+Goa,Beach,High,25000,30,4.8,goa.jpg
+Manali,Mountain,Medium,18000,12,4.7,manali.jpg
+Darjeeling,Hill,Medium,15000,15,4.6,darjeeling.jpg
+Jaipur,Historical,Low,8000,32,4.5,jaipur.jpg
+Kerala,Nature,High,27000,28,4.9,kerala.jpg
+Shimla,Hill,Medium,14000,16,4.4,shimla.jpg
+Andaman,Beach,High,30000,29,4.8,andaman.jpg
+Agra,Historical,Low,7000,35,4.6,agra.jpg
+Rishikesh,Adventure,Low,9000,25,4.7,rishikesh.jpg
+Ladakh,Adventure,High,35000,8,4.9,ladakh.jpg
